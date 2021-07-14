@@ -30,10 +30,8 @@ export default function Login() {
     <>
       <Card>
         <Card.Body>
-
           <h2 className="text-center mb-4">Prueba Teleperformance</h2>
           <h3 className="text-center mb-4">Inicio de sesión</h3>
-
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
